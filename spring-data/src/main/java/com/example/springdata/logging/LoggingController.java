@@ -18,8 +18,6 @@ public class LoggingController {
 		log.info("This is an INFO level message");
         log.warn("This is a WARN level message");
         log.error("This is an ERROR level message");
-        return "See the log for details";	
+        return "See the log for details";		
 	}
-	
-
 }

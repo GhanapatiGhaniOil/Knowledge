@@ -14,29 +14,25 @@ public class KeyPoolController {
 	@Autowired
 	private KeyPoolService keyService;
 	
-	@GetMapping("/seq")
-	public Long nextSequence() {
-		keyService.nextSequence();
-		
-	}
-	
-	@GetMapping("/rsd")
-	public void reserved() {
-		keyService.reserved();
-		
-	}
-	
-	@GetMapping("/list/seq")
-	public List<Long> listSequence() {
-		keyService.listSequence();
-		
-	}
-	
-	@GetMapping("/list/rsd") 
-	public List<Long> listReserved() {
-		keyService.listReserved();
-		
-	}
+	/*
+	 * @GetMapping("/seq") public Long nextSequence() { keyService.nextSequence();
+	 * 
+	 * }
+	 * 
+	 * @GetMapping("/rsd") public void reserved() { keyService.reserved();
+	 * 
+	 * }
+	 * 
+	 * @GetMapping("/list/seq") public List<Long> listSequence() {
+	 * keyService.listSequence();
+	 * 
+	 * }
+	 * 
+	 * @GetMapping("/list/rsd") public List<Long> listReserved() {
+	 * keyService.listReserved();
+	 * 
+	 * }
+	 */
 	
 
 }

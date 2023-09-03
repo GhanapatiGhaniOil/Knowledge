@@ -17,26 +17,27 @@ import org.springframework.transaction.jta.JtaTransactionManager;
 
 @Configuration
 public class SpringJpaConfig extends JpaBaseConfiguration {
-	
-	protected SpringJpaConfig(DataSource dataSource, JpaProperties properties, ObjectProvider<JtaTransactionManager> jtaTransactionManager) {
-        super(dataSource, properties, jtaTransactionManager);
-    }
 
-    @Override
-    protected AbstractJpaVendorAdapter createJpaVendorAdapter() {
-        return new EclipseLinkJpaVendorAdapter();
-    }
+	protected SpringJpaConfig(DataSource dataSource, JpaProperties properties,
+			ObjectProvider<JtaTransactionManager> jtaTransactionManager) {
+		super(dataSource, properties, jtaTransactionManager);
+	}
 
-    @Override
-    protected Map<String, Object> getVendorProperties() {
-        HashMap<String, Object> map = new HashMap<>();
-        map.put(PersistenceUnitProperties.WEAVING, detectWeavingMode());
-        map.put(PersistenceUnitProperties.DDL_GENERATION, "drop-and-create-tables");
-        return map;
-    }
+	@Override
+	protected AbstractJpaVendorAdapter createJpaVendorAdapter() {
+		return new EclipseLinkJpaVendorAdapter();
+	}
 
-    private String detectWeavingMode() {
-        return InstrumentationLoadTimeWeaver.isInstrumentationAvailable() ? "true" : "static";
-    }
+	@Override
+	protected Map<String, Object> getVendorProperties() {
+		HashMap<String, Object> map = new HashMap<>();
+		map.put(PersistenceUnitProperties.WEAVING, detectWeavingMode());
+		map.put(PersistenceUnitProperties.DDL_GENERATION, "drop-and-create-tables");
+		return map;
+	}
+
+	private String detectWeavingMode() {
+		return InstrumentationLoadTimeWeaver.isInstrumentationAvailable() ? "true" : "static";
+	}
 
 }

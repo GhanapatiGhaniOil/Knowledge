@@ -1,0 +1,16 @@
+class Ifsample{
+    public static void main(String args[]){
+        int x,y;
+        x=10;
+        y=30;
+        if(x>y)System.out.println("X is less than Y");
+        x=x*3;
+        if(x==y)System.out.println("x now equal to y");
+        x=x*3;
+        if(x>y)System.out.println("x now greater than y");
+        if(x==y)System.out.println("x equal to y");
+
+
+
+    }
+}

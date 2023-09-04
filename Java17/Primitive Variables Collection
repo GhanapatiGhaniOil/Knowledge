@@ -1,0 +1,31 @@
+class PrimitiveVariables{
+    public static void main(String args[]){
+char ant='b';
+boolean dog=false;
+int num=10008;
+
+double tb2=6.89;
+byte cb=56;
+long bin=98989898988;
+
+
+System.out.println(ant);
+System.out.println(dog);
+System.out.println(num);
+
+System.out.println(tb2);
+System.out.println(cb);
+System.out.println(bin);
+
+
+
+
+
+
+
+
+
+
+
+    }
+}

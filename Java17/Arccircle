@@ -1,0 +1,17 @@
+package Sum.com;
+
+public class ArcCircle {
+
+	public static void main(String[] args) {
+		s
+double pi,r,a;
+pi=3.1416;
+r=2.67;
+a=pi*r*r;
+System.out.println(a);
+		
+		
+		
+	}
+
+}

@@ -9,5 +9,5 @@
 3. Batching -
    Example - Organizing a list of 
 
-#Userful Links
-This site was built using [GitHub Pages](https://pages.github.com/).
+#Userful Links<br>
+[Advancing AI for humanity](https://thegenerality.com/agi/).

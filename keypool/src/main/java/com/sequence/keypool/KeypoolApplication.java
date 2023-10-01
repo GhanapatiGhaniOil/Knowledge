@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EntityScan("com.sequence.keypool.entity")
-@EnableJpaRepositories(basePackages = "com.sequence.keypool.repositories")
+@EnableJpaRepositories(basePackages = "com.sequence.keypool.repository")
 public class KeypoolApplication {
 
 	public static void main(String[] args) {

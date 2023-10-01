@@ -10,4 +10,3 @@
    Example - Organizing a list of 
 
 <h2>Userful Links</h2>
-https://thegenerality.com/agi/

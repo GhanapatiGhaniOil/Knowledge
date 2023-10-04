@@ -1,4 +1,4 @@
-#Differen ways of feeding a DataSet to a Machine Learning Models.
+#Different ways of feeding a DataSet to a Machine Learning Models.
 
 1. Preprocessing -
    Example - Removing HTML tags from a web scraping dataset to extract clean text.

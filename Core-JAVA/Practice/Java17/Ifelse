@@ -1,0 +1,17 @@
+package ample;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int time=43;
+if(time<30) {
+	System.out.println("limited");
+}
+else {
+	System.out.println("Exceeded");
+}
+		
+	}
+
+}

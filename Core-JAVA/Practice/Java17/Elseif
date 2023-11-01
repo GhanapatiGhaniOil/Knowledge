@@ -1,0 +1,21 @@
+package ample;
+
+public class Elseif {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ int count=8;
+ count+=8;
+ if(count==16) {
+	 System.out.println("Equals count");
+ }
+ else if(count>16){
+	 System.out.println("Less than count");
+ }
+ else
+ {
+	 System.out.println("Greater tha count value");
+ }
+	}
+
+}

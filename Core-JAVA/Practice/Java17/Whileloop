@@ -1,0 +1,29 @@
+package ample;
+
+public class Whileloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=6;
+while(i<10) {
+	System.out.println(i);
+	i++;
+	if(i==7) {
+		break;
+		
+	}
+	System.out.println(i);
+	
+}
+int j=11;
+while(j<11){
+	System.out.println(j);
+	j--;
+	if(j==1) {
+		continue;
+	}
+	System.out.println(j);
+}
+	}
+
+}

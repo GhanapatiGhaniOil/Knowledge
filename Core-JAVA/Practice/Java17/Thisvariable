@@ -8,7 +8,7 @@ int rollno;
 String name;
 float fee;
 	
-This(int r,String n,float f){
+This(int r,String n,float f){ // as both instance variable and local variable are same ,to differentiate it 'this' is used.
  this.rollno=r;
  this.name=n;
  this.fee=f;

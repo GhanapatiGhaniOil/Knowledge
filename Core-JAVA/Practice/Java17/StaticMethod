@@ -1,0 +1,29 @@
+package ample;
+
+public class Student1{
+	int rollno;
+	String name;
+	static String college ="ITS";
+	static void change() {
+		college="YMC";
+	}
+	 
+	Student1(int r,String n){
+		rollno=r;
+		name=n;
+		
+	}
+	void display() {
+		System.out.println(rollno+""+name+""+college);
+	}
+
+		public static void main(String[]args) {
+			Student1.change();
+			Student1 v1=new Student1(111,"Banu");
+			Student1 v2=new Student1(112,"Thiru");
+			
+	v1.display();
+	v2.display();
+		}
+
+}

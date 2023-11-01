@@ -1,0 +1,25 @@
+package ample;
+
+ class Student {
+
+	
+int rollno;
+String name;
+static String school ="ITS";
+Student(int r,String n){
+	rollno=r;
+	name=n;
+	
+}
+void display() {
+	System.out.println(rollno+""+name+""+college);
+}
+
+	public static void main(String[]args) {
+		Student v1=new Student(111,"Banu");
+		Student v2=new Student(112,"Thiru");
+v1.display();
+v2.display();
+	}
+}
+	

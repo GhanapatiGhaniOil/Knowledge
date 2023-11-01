@@ -1,0 +1,30 @@
+package ample;
+
+public class This {
+
+	
+		// TODO Auto-generated method stub
+int rollno;
+String name;
+float fee;
+	
+This(int r,String n,float f){
+ this.rollno=r;
+ this.name=n;
+ this.fee=f;
+
+	}
+void display() {
+	System.out.println(rollno+""+name+""+fee+"");
+}
+
+	public static void main(String args[]) {
+		This e1=new This(231,"Thiru",6000f);
+		This e2=new This(567,"Ram",9900f);
+		e2.display();
+		e1.display();
+	}
+		
+	}
+
+

@@ -1,0 +1,24 @@
+package ample;
+
+public class ThisMethod {
+
+	
+void m() {
+	System.out.println("alone");
+}
+void n() {
+	System.out.println("country");
+	m(); //same as this.m();
+	this.m();
+}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThisMethod a=new ThisMethod();
+		a.n();
+	}}
+	
+
+
+
+

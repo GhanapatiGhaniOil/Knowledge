@@ -1,0 +1,20 @@
+package ample;
+
+public class ThisConstructor {
+	ThisConstructor(){
+		System.out.println(7);
+	}
+		
+		ThisConstructor(int x){
+			
+			System.out.println(x);
+		}
+		
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+				ThisConstructor a=new ThisConstructor(5);
+				
+		}
+	}
+
+

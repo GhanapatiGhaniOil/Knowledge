@@ -1,0 +1,23 @@
+package ample;
+
+public class NestedIf {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int card=1234;
+		String name="RAVI";
+if(card==1234) {
+	System.out.println("welcome to bank");
+	if(name=="RAVI") {
+		System.out.println("Enter Pin ");
+	}
+	else {
+		System.out.println("Wrong credentials");
+	}
+}
+else {
+	System.out.println("Card is invalid");
+}
+	}
+
+}

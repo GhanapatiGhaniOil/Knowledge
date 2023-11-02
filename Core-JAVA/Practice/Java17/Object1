@@ -1,0 +1,25 @@
+package java;
+
+public class Object1 {
+
+ int id;
+ String name;
+ 
+	
+
+
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+		Object1 e1 =new Object1();//object creation
+	
+			Object1.id=101;
+		Object1.name="Thiru";
+			System.out.println(Object1.id+""+Object1.name+"");
+			
+			
+			
+			
+			
+	}
+
+}

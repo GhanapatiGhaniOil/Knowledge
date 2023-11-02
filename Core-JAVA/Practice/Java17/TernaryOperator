@@ -1,0 +1,12 @@
+package ample;
+
+public class TernaryOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num=45;
+String output=(num%2==0)?"Even number":"Odd number";
+System.out.println(output);
+	}
+
+}

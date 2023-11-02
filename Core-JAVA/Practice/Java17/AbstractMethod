@@ -1,0 +1,29 @@
+package ample;
+
+public class AbstractMethod  extends Demo{
+
+	
+void display() {
+	System.out.println("Abstract Method?");
+}
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	AbstractMethod obj=new AbstractMethod();
+	obj.display();
+	}
+@Override
+void Display() {
+	
+	
+}
+
+}
+package ample;
+
+abstract class Demo {
+
+	abstract void Display();
+
+	}
+
+

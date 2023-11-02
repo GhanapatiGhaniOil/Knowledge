@@ -1,0 +1,13 @@
+package ample;
+
+public class Constructor {
+Constructor(){ // default constructor
+	System.out.println("Bike is moved");
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Constructor few=new Constructor();
+		
+	}
+
+}
